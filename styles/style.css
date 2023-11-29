@@ -5,3 +5,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+:root{
+    --metrotekgreen:rgb(0, 168, 89);
+    --metrotekgrey:rgb(132, 134, 136);
+    --white:hsl(0, 0%, 100%);
+    --beige:hsl(60,56%,91%);
+}
