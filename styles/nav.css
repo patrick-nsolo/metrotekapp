@@ -1,0 +1,74 @@
+/*Navigation Styling*/
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    width:95%;
+    min-height: 70px;
+}
+.metrotek-logo img{
+    height:100px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+}
+.menu-links{
+    list-style: none;
+}
+.menu-links a{
+    text-decoration: none;
+    color:var(--metrotekgreen);
+    position: relative;
+    text-transform: uppercase;
+    margin:0 10px;
+    font-weight: 500;
+}
+.menu-links a,
+.menu-links a:after,
+.menu-links a:before{
+    transition:all 0.5s;
+}
+.menu-links a:hover{
+    color: var(--metrotekgreen);
+}
+
+/*NAVIGATION EFFECT*/
+.menu-links a{
+  position: relative;
+}
+.menu-links a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: var(--metrotekgreen);
+  height: 1px;
+}
+.menu-links a:hover:after {
+  width: 100%;
+}
+/*NAVIGATION EFFECT END*/
+
+
+
+.hamburger{
+    display: none;
+    cursor:pointer;
+}
+.bar{
+    display: block;
+    height:3px;
+    width:25px;
+    margin:5px auto;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: var(--metrotekgreen);
+}

@@ -8,23 +8,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/nav.css"/>
+    <link rel="stylesheet" href="styles/media.css"/>
     <title>Document</title>
 </head>
-<body>
-    <div class="navigation-container">
-        <div class="metrotek-logo">
-            <img src="" alt="metrotek-logo"/>
+<body class="overlay">
+    <header>
+        <div class="navigation-container">
+            <a class="metrotek-logo">
+                <img src="/images/metrotek-logo.png" alt="metrotek-logo"/>
+            </a>
+            <nav class="navigation nav-effect">
+                <ul class="menu">
+                    <li class="menu-links"><a href="#">Home</a></li>
+                    <li class="menu-links"><a href="#">About</a></li>
+                    <li class="menu-links"><a href="#">Services</a></li>
+                    <li class="menu-links"><a href="#">Gallery</a></li>
+                    <li class="menu-links"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </div>
-    
+    </header>
+    <main>
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="/images/IMG_6671.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="btn">
+            <a class="access-btn" href="#">Enter Site</a>
+        </div>
+        <!--<header>
+            <div class="container">
+                <nav class="navbar">
+                    <a href="index.html" title="This link takes you to lofty logo home page" class="slide-in-left"><img class="logo" src="/images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
+                    <ul class="menu">
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="clients.html" class="nav-link">Our Clients</a></li>
+                        <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                        <li class="nav-item"><a href="login.php" class="btn nav-link button">Login</a></li> 
+                        <li class="nav-item"><a href="register.php" class="btn nav-link button reg-btn">Register</a></li>       
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </header> -->
+    </main>
+        
 </body>
 </html>

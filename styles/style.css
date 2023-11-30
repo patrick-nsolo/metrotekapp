@@ -10,4 +10,48 @@
     --metrotekgrey:rgb(132, 134, 136);
     --white:hsl(0, 0%, 100%);
     --beige:hsl(60,56%,91%);
+    --black:hsl(0,0%,0%);
+}
+.overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.video-container{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    overflow: hidden;
+}
+video{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+}
+.btn{
+    position:relative;
+    left:48%;
+    margin-top: 400px;
+}
+.access-btn{
+    background: transparent;
+    border: 1px solid var(--white);
+    border-radius: 7px;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--white);
+    place-content: center;
+}
+.access-btn:hover{
+    transition: background-color 1s;
+    background-color: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
 }
