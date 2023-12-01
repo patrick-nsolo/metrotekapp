@@ -91,4 +91,8 @@ svg{
     }
 
 }
-
+/*    about styling       */
+.video{
+    width:50%;
+    object-fit:contain;
+}
