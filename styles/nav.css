@@ -23,7 +23,7 @@
     text-decoration: none;
     color:var(--metrotekgreen);
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin:0 10px;
     font-weight: 500;
 }
