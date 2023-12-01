@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/527c5ab608cab860a6aae8ce02e14b0e?family=Calibri+Bold);
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Calibri Bold";
 }
 :root{
     --metrotekgreen:rgb(0, 168, 89);
@@ -37,24 +37,42 @@ video{
     height:100%;
     object-fit:fill;
 }
+.btn-container{
+    position: relative;
+    left:45%;
+    margin-top: 450px;
+}
 .btn{
+    border:0px solid #fff;
+    padding:1em 2em;
+    min-width: 200px;
+    min-height: 50px;
+    background: none;
     position:relative;
-    left:48%;
-    margin-top: 400px;
+    cursor: pointer;
+    box-shadow: inset -2px 1px 11px rgba(0, 255, 0, 0.5);
 }
-.access-btn{
-    background: transparent;
-    border: 1px solid var(--white);
-    border-radius: 7px;
-    padding: 20px 50px;
+a{
+    color:#fff;
     text-decoration: none;
-    color: var(--white);
-    place-content: center;
-    transition: background 0.3s ease;
+    font-size: large;
 }
-.access-btn:hover{
-    background: linear-gradient(to right, #2c862f, #45a049);
-    color:var(--white);
-    border-color: #45a049;
+svg{
+    position: absolute;
+    inset: 0;
+    fill: none;
+    stroke: var(--metrotekgreen);
+    stroke-width: 5px;
+    stroke-dasharray: 33 297;
+    stroke-dashoffset: 50;
+    transition: all 0.5s linear;
+}
+.btn:hover{
+    background-color: var(--metrotekgreen);
+    box-shadow: none;
+}
+.btn:hover svg{
+    stroke-width: 3px;
+    stroke-dashoffset: -500;
 }
 
