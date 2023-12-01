@@ -41,6 +41,7 @@ video{
     position: relative;
     left:45%;
     margin-top: 500px;
+    z-index: 3;
 }
 .btn{
     border:0px solid #fff;
@@ -68,11 +69,15 @@ svg{
     transition: all 0.5s linear;
 }
 .btn:hover{
-    background-color: var(--metrotekgreen);
+    background-colo: var(--metrotekgreen);
     box-shadow: none;
 }
 .btn:hover svg{
     stroke-width: 3px;
     stroke-dashoffset: -500;
+}
+.btn:active{
+    transform: scale(1.001);
+    background-color: var(--metrotekgreen);
 }
 
