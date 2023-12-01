@@ -68,10 +68,6 @@ svg{
     transition: all 0.5s linear;
     
 }
-.btn:hover{
-    background-colo: var(--metrotekgreen);
-    box-shadow: none;
-}
 .btn:hover svg{
     stroke-width: 3px;
     stroke-dashoffset: -500;
@@ -79,5 +75,16 @@ svg{
 .btn:active{
     transform: scale(1.001);
     background-color: var(--metrotekgreen);
+}
+@media (max-width:768px){
+    .video-container{
+        margin-top: 0;
+    }
+    video{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+
 }
 
