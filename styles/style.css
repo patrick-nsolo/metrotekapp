@@ -89,12 +89,15 @@ svg{
 }
 /*LANDING PAGE STYLING END*/
 /*ABOUT PAGE STYLING START*/
+.about{
+    padding:150px;
+}
 .about-metrotek{
     display: flex;
     justify-content: center;
     gap: 50px;
-    height:500px;
-    padding:50px;
+    height:400px;
+    
 }
 .about-image h2{
     font-size: 2.5rem;
