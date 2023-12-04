@@ -25,3 +25,4 @@ window.addEventListener('scroll', function(){
   parallax.style.backgroundPositionY = offset * 0.7 + 'px'
 })
 //PARALLAX SCROLLING EFFECT END
+

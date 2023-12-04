@@ -1,0 +1,28 @@
+/*ALL PAGE TRANSITIONS STARTS*/
+.metrotek-info .col-1 h2 .slide-in-left{
+    animation: slide-in-left 1s ease-in-out forwards;
+}
+@keyframes slide-in-left{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+.metrotek-info .col-1 h2 .slide-in-right{
+    animation: slide-in-right 2s ease-in-out forwards;
+    margin-top: 20px;
+}
+@keyframes slide-in-right{
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
