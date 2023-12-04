@@ -90,14 +90,13 @@ svg{
 /*LANDING PAGE STYLING END*/
 /*ABOUT PAGE STYLING START*/
 .about{
-    padding:150px;
+    padding:100px;
 }
 .about-metrotek{
     display: flex;
     justify-content: center;
     gap: 50px;
     height:400px;
-    
 }
 .about-image h2{
     font-size: 2.5rem;
@@ -132,7 +131,7 @@ svg{
     color:var(--metrotekgreen);
 }
 .about-main p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:var(--metrotekgrey);
 }
 .green{
@@ -149,6 +148,9 @@ svg{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.metrotek-info{
+    padding:100px;
 }
 .col-1{
     display: flex;
@@ -167,7 +169,9 @@ svg{
     background-color: var(--metrotekgreen);
     padding:50px;
     color: var(--white);
+    font-size: 1.2rem;
 }
+
 .parallax-3{
     background-image: url(../images/slide-three.webp) ;
     height:90vh;
@@ -176,4 +180,35 @@ svg{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.values{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:100px;
+}
+.values > .col-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+}
+.col-1 p{
+    background-color: var(--metrotekgreen);
+    padding:80px;
+    font-size: 1.2rem;
+    color:var(--white)
+    margin-top:30px;
+}
+.slogan-2 img{
+    width:300px; 
+}
+footer{
+
+}
+.footer{
+    display:flex;
+}
+.footer-nav li, .media li i{
+    color :var(--metrotekgrey);
 }
