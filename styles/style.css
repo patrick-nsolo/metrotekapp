@@ -186,6 +186,7 @@ svg{
     flex-direction: row;
     justify-content: center;
     gap:100px;
+    padding: 100px;
 }
 .values > .col-1{
     display: flex;
@@ -203,11 +204,18 @@ svg{
 .slogan-2 img{
     width:300px; 
 }
-footer{
-
-}
 .footer{
     display:flex;
+    justify-content: center;
+    gap:200px;
+    padding:100px;
+    color:var(--metrotekgrey);
+}
+.contact-details{
+    line-height: 50px;
+}
+.metrotekng{
+    max-width: 300px;
 }
 .footer-nav li, .media li i{
     color :var(--metrotekgrey);
