@@ -229,6 +229,36 @@ svg{
     color: var(--metrotekgrey);
     font-size: 1rem;
 }
+@media (max-width:768px){
+    .hero{
+        overflow: hidden;
+    }
+    .about{
+       padding:40px;
+    }
+    .about-metrotek{
+        flex-direction: column;
+        height:100%;
+    }
+    .col-1 h2{
+        font-size: 1.5rem;
+    }
+    .col-2 {
+        flex-direction: column;
+    }
+    .col-2 p{
+        width:300px;
+    }
+    .values{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .slogan-2 img{
+        margin-left: -50px;
+    }
+}
 /*ABOUT PAGE STYLING END*/
 /*CONTACT PAGE STYLING START*/
 .contact-hero{
@@ -244,6 +274,20 @@ svg{
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
+}
+.bx{
+    font-size: 3rem;
+    color: var(--metrotekgreen);
+}
+.contact-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.contact-links a img{
+    height:45px;
+    margin-top: 3px;
 }
 
 /*CONTACT PAGE STYLING END*/
