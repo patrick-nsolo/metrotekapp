@@ -141,7 +141,7 @@ svg{
     color: var(--metrotekgrey);
 }
 .parallax-2{
-    background-image: url(../images/slide-two.webp) ;
+    background-image: url(../images/ideation.png) ;
     height:90vh;
     width: 100%;
     background-attachment: fixed;
