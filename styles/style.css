@@ -304,6 +304,7 @@ svg{
     justify-content: center;
     align-items: center;
     gap: 200px;
+    margin-top: 50px;
 }
 .gallery-items img{
     width:300px;

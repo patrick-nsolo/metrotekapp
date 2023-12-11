@@ -26,3 +26,8 @@ window.addEventListener('scroll', function(){
 })
 //PARALLAX SCROLLING EFFECT END
 
+
+// LOAD MORE BUTTON START
+const galleryContainer = document.getElementById()
+
+// LOAD MORE BUTTON END
