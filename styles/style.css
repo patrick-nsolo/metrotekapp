@@ -294,3 +294,17 @@ svg{
 }
 
 /*CONTACT PAGE STYLING END*/
+
+.gallery{
+    
+    
+}
+.gallery-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.gallery-items img{
+    width:300px;
+}
