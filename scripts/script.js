@@ -28,6 +28,6 @@ window.addEventListener('scroll', function(){
 
 
 // LOAD MORE BUTTON START
-const galleryContainer = document.getElementById()
+
 
 // LOAD MORE BUTTON END

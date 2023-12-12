@@ -77,14 +77,15 @@ svg{
 @media (max-width:768px){
     .video-container{
         margin-top: 0;
+        overflow-x: hidden;
     }
     video{
-        object-fit:cover;
+        object-fit:contain;
     }
     .btn-container{
         position: relative;
         left:30%;
-        margin-top: 500px; 
+        margin-top: 800px; 
     }
 }
 /*LANDING PAGE STYLING END*/
@@ -294,18 +295,35 @@ svg{
 }
 
 /*CONTACT PAGE STYLING END*/
-
-.gallery{
-    
-    
+.gallery-title{
+    text-align: center;
+    margin-top:30px;
 }
 .gallery-items{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 200px;
+    gap:60px;
     margin-top: 50px;
 }
-.gallery-items img{
+.gallery-item img{
     width:300px;
+    cursor: pointer;
+}
+#load-more{
+    background-color: var(--metrotekgreen);
+    padding: 5px 10px;
+    font-size:20px;
+    margin:50px 0;
+    display:inline-block;
+}
+#load-more:hover{
+    background-color:blue;
+    text-decoration:none;
+}
+@media (max-width:768px){
+    .gallery-items{
+        flex-direction: column;
+        align-items:center ;
+    }
 }
