@@ -96,7 +96,7 @@ svg{
 .about-metrotek{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
     height:400px;
 }
 .about-image h2{
@@ -156,7 +156,11 @@ svg{
 .col-1{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     font-size: 1.6rem;
+}
+.col-1 h2{
+    text-align: center;
 }
 .col-2{
     display: flex;
