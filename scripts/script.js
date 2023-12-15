@@ -35,7 +35,22 @@ window.addEventListener('scroll', function(){
 //GALLERY SLIDE START
 let slideIndex = 0;
 function showSlides() {
-  
+  const slides = document.querySelector('.gallery-slide');
+  if (slideIndex === -1) {
+    slideIndex = slides.children.length - 3;
+  } else if (slideIndex === slides.children.length - 2) {
+    slideIndex = 0;
+  }
+  slides.style.transform = `translateX(-${slideIndex * 33.333}%)`;
 }
 
+function nextSlide(){
+  slideIndex++;
+  showSlides();
+}
+function prevSlide(){
+  slideIndex--;
+  showSlides();
+}
+showSlides();
 //GALLERY SLIDE END

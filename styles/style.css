@@ -264,7 +264,7 @@ svg{
     margin: 5px;
 }
 .slide-btn:hover{
-    background-color: green
+    background-color: green;
 }
 .gallery-btns{
     display: flex;
