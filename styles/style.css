@@ -243,12 +243,38 @@ svg{
 }
 .gallery-slide {
     display: flex;
+    gap: 50px;
     transition: transform 0.5s ease-in-out;
 }
 .image-slide{
     width:100%;
     flex: 0 0 33.333%;
     box-sizing: border-box;
+}
+.image-slide img{
+    width:300px;
+}
+.slide-btn{
+    cursor: pointer;
+    font-size: 20px;
+    background: var(--metrotekgreen);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.slide-btn:hover{
+    background-color: green
+}
+.gallery-btns{
+    display: flex;
+    justify-content: center;
+}
+.fa-angle-double-left{
+    color: var(--white);
+}
+.bx-arrow-back{
+    color: var(--white);
 }
 @media (max-width:768px){
     .hero{

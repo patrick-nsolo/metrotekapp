@@ -31,3 +31,8 @@ window.addEventListener('scroll', function(){
 
 
 // LOAD MORE BUTTON END
+
+//GALLERY SLIDE START
+
+
+//GALLERY SLIDE END
