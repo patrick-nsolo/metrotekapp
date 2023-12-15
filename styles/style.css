@@ -167,7 +167,6 @@ svg{
     justify-content: center;
     align-items: center;
     gap:100px;
-    padding:100px;
 }
 .col-2 p{
     width:500px;
@@ -176,7 +175,10 @@ svg{
     color: var(--white);
     font-size: 1.2rem;
 }
-
+.col-3{
+    margin-top: 0px;
+    padding:50px;
+}
 .parallax-3{
     background-image: url(../images/slide-three.webp) ;
     height:90vh;
@@ -188,7 +190,7 @@ svg{
 }
 .values{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap:100px;
     padding: 100px;
@@ -233,6 +235,20 @@ svg{
 .aurora{
     color: var(--metrotekgrey);
     font-size: 1rem;
+}
+.gallery-container{
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.gallery-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.image-slide{
+    width:100%;
+    flex: 0 0 33.333%;
+    box-sizing: border-box;
 }
 @media (max-width:768px){
     .hero{
