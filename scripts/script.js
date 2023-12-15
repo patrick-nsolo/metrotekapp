@@ -33,6 +33,9 @@ window.addEventListener('scroll', function(){
 // LOAD MORE BUTTON END
 
 //GALLERY SLIDE START
-
+let slideIndex = 0;
+function showSlides() {
+  
+}
 
 //GALLERY SLIDE END
