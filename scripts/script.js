@@ -34,14 +34,15 @@ window.addEventListener('scroll', function(){
 
 //GALLERY SLIDE START
 let slideIndex = 0;
+const slideWidth = 100;
 function showSlides() {
   const slides = document.querySelector('.gallery-slide');
   if (slideIndex === -1) {
-    slideIndex = slides.children.length - 3;
-  } else if (slideIndex === slides.children.length - 2) {
+    slideIndex = slides.children.length - 2;
+  } else if (slideIndex === slides.children.length) {
     slideIndex = 0;
   }
-  slides.style.transform = `translateX(-${slideIndex * 33.333}%)`;
+  slides.style.transform = `translateX(-${slideIndex * slideWidth}%)`;
 }
 
 function nextSlide(){
@@ -52,5 +53,10 @@ function prevSlide(){
   slideIndex--;
   showSlides();
 }
+setInterval(() => {
+  slideIndex++;
+  showSlides();
+}, 3000);
+
 showSlides();
 //GALLERY SLIDE END
