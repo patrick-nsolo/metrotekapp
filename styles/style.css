@@ -375,8 +375,17 @@ svg{
 }
 
 /*SERVICE PAGE STYLING START*/
+.drop:hover .dropdown{
+    display: block;
+}
 .dropdown{
+   display: none;
    position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   top:60%;
+}
+.dropdown-links {
+    padding:15px;
 }
 .feel-hero{
     background-image: url(../images/slide-three.webp) ;
