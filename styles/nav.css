@@ -63,6 +63,18 @@
     transition: all 0.5s ease;
     background-color: var(--metrotekgreen);
 }
+.drop:hover .dropdown{
+    display: block;
+}
+.dropdown{
+   display: none;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   top:60%;
+}
+.dropdown-links {
+    padding:15px;
+}
 /*NAVIGATION STYLING END [DESKTOP RESPONSIVE]*/
 /*NAVIGATION STYLING START [MOBILE RESPONSIVE]*/
 @media (max-width:780px){
@@ -77,7 +89,6 @@
     }
     .hamburger{
         display: block;
-        visibility: visible;
     }
     .hamburger.active .bar:nth-child(2){
         opacity:0;
