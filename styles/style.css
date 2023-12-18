@@ -272,6 +272,9 @@ svg{
     .col-1 h2{
         font-size: 1.5rem;
     }
+    .col-1 p{
+        padding: 25px;
+    }
     .col-2 {
         flex-direction: column;
     }
