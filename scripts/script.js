@@ -46,5 +46,5 @@ function slider(){
   console.log(img);
   img.innerHTML = "<img src="+slides[Start-1]+">";
 }
-setInterval(slider,2000);
+setInterval(slider,5000);
 //GALLERY SLIDE END
