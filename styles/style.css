@@ -377,7 +377,16 @@ input[type=submit]:hover {
     height:45px;
     margin-top: 3px;
 }
-
+@media (max-width:768px){
+    .form-container{
+        padding: 40px;
+        left:0;
+        position: relative;
+    }
+    input[type=text], select, textarea {
+        width: 300px;
+    }
+}
 /*CONTACT PAGE STYLING END*/
 .gallery-title{
     text-align: center;
