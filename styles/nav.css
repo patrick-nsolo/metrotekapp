@@ -71,6 +71,7 @@
    position: absolute;
    background-color: rgba(0, 0, 0, 0.5);
    top:60%;
+   transition: all 0.5s ease-in;
 }
 .dropdown-links {
     padding:15px;
