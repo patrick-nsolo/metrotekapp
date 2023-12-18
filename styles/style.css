@@ -84,11 +84,27 @@ svg{
     }
     video{
         object-fit:contain;
+        top:0;
     }
     .btn-container{
         position: relative;
         left:20%;
         margin-top: 500px; 
+    }
+}
+
+@media (min-width:768px) and (max-width:1180px){
+    .video-container{
+        display: flex;
+        justify-content: center;
+        top:-30%;
+    }
+    video{
+        object-fit: contain;
+        width: 50%;
+    }
+    .btn-container{
+        margin-top: 500px;
     }
 }
 /*LANDING PAGE STYLING END*/
