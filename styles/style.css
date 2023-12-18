@@ -402,7 +402,15 @@ svg{
     height: 100%;
 }
 @media (max-width:768px){
-    
+    .dropdown{
+        display: block;
+        top:40%;
+        left:30%;
+        z-index: 13;
+    }
+    .navbar a:not(:first-child), .dropdown  {
+        display: none;
+    }
 }
 
 
