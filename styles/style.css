@@ -248,7 +248,6 @@ svg{
 }
 .image-slide{
     width:100%;
-   
     box-sizing: border-box;
 }
 .image-slide img{
@@ -307,6 +306,22 @@ svg{
     }
     .contact-details{
         text-align: center;
+    }
+    .gallery-container{
+        max-width: 300px;
+    }
+    .gallery-slide {
+        display: flex;
+        margin-right: 10px;
+        gap: 50px;
+        transition: transform 0.5s ease-in-out;
+    }
+    .image-slide{
+        width:100%;
+        box-sizing: border-box;
+    }
+    .image-slide img{
+        width:300px;
     }
 }
 /*ABOUT PAGE STYLING END*/
