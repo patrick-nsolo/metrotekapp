@@ -26,7 +26,6 @@
     align-items: center;
     position: fixed;
     gap:250px;
-    
 }
 .menu{
     display: flex;
@@ -51,7 +50,7 @@
     color: var(--metrotekgreen);
 }
 .hamburger{
-    display: none;
+    display: block;
     cursor: pointer;
 }
 .bar{
@@ -67,6 +66,12 @@
 /*NAVIGATION STYLING END [DESKTOP RESPONSIVE]*/
 /*NAVIGATION STYLING START [MOBILE RESPONSIVE]*/
 @media (max-width:780px){
+    .metrotek-logo img{
+        width:150px;
+    }
+    .container{
+        width:100%;
+    }
     .hamburger{
         display: block;
     }
