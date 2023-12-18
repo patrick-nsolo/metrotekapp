@@ -139,3 +139,15 @@
   width: 100%;
 }
 /*NAVIGATION EFFECT END*/
+.drop:hover .dropdown{
+    display: block;
+}
+.dropdown{
+   display: none;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+   top:60%;
+}
+.dropdown-links {
+    padding:15px;
+}
