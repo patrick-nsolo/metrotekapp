@@ -9,7 +9,7 @@ hamburger.addEventListener("click", () => {
     btn.classList.toggle("active");
 });
 
-document.querySelectorAll(".nav-link").forEach(n =>
+document.querySelectorAll(".menu-link a").forEach(n =>
 n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");

@@ -50,7 +50,7 @@
     color: var(--metrotekgreen);
 }
 .hamburger{
-    display: block;
+    display: none;
     cursor: pointer;
 }
 .bar{
@@ -69,11 +69,15 @@
     .metrotek-logo img{
         width:150px;
     }
+    .navbar{
+        gap:180px;
+    }
     .container{
         width:100%;
     }
     .hamburger{
         display: block;
+        visibility: visible;
     }
     .hamburger.active .bar:nth-child(2){
         opacity:0;
