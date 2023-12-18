@@ -379,8 +379,21 @@ svg{
     }
 }
 
-/*SERVICE PAGE STYLING START*/
+/*SERVICE/ THE FEEL PAGE STYLING START*/
+.feel-hero{
+    background-image: url(../images/slide-three.webp) ;
+    height:90vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feel-hero-background{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
 
 
-
-/*SERVICE PAGE STYLING END*/
+/*SERVICE/ THE FEEL PAGE STYLING END*/
