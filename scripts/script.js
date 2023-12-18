@@ -33,30 +33,19 @@ window.addEventListener('scroll', function(){
 // LOAD MORE BUTTON END
 
 //GALLERY SLIDE START
-let slideIndex = 0;
-const slideWidth = 100;
-function showSlides() {
-  const slides = document.querySelector('.gallery-slide');
-  if (slideIndex === -1) {
-    slideIndex = slides.children.length - 2;
-  } else if (slideIndex === slides.children.length) {
-    slideIndex = 0;
+var img = document.getElementById('img');
+var slides = ['/images/2.webp','/images/3.webp', '/images/4.webp', '/images/5.webp', '/images/6.webp', '/images/7.webp', '/images/8.webp']
+var Start = 0;
+
+function slider(){
+  if (Start < slides.length){
+    Start = Start + 1;
+  } else {
+    Start = 1;
   }
-  slides.style.transform = `translateX(-${slideIndex * slideWidth}%)`;
+  console.log(img);
+  img.innerHTML = "<img src="+slides[Start-1]+">";
 }
+setInterval(slider,2000);
 
-function nextSlide(){
-  slideIndex++;
-  showSlides();
-}
-function prevSlide(){
-  slideIndex--;
-  showSlides();
-}
-setInterval(() => {
-  slideIndex++;
-  showSlides();
-}, 3000);
-
-showSlides();
 //GALLERY SLIDE END

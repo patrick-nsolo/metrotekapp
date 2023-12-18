@@ -1,8 +1,9 @@
 /*ALL PAGE TRANSITIONS STARTS*/
-.metrotek-info .col-1 h2 .slide-in-left{
-    animation: slide-in-left 1s ease-in-out forwards;
+/*Enter Metrotek Button Slide*/
+.enter-btn-slide-in-left{
+    animation: enter-btn-slide-in-left 3.5s ease-in-out forwards;
 }
-@keyframes slide-in-left{
+@keyframes enter-btn-slide-in-left{
     0%{
         transform: translateX(-100%);
         opacity: 0;
@@ -12,6 +13,8 @@
         opacity:1;
     }
 }
+/*Enter Metrotek Button Slide*/
+
 .metrotek-info .col-1 h2 .slide-in-right{
     animation: slide-in-right 2s ease-in-out forwards;
     margin-top: 20px;
