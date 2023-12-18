@@ -14,7 +14,36 @@
     }
 }
 /*Enter Metrotek Button Slide*/
-
+/*Left Slide Animation*/
+.slide-in-left{
+    animation: slide-in-left 1.5s ease-in-out forwards;
+}
+@keyframes slide-in-left{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+/*Left Slide Animation*/
+/*Left Slide Animation*/
+.slide-in-right{
+    animation: slide-in-right 1.2s ease-in-out forwards;
+}
+@keyframes slide-in-right{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+/*Left Slide Animation*/
 .metrotek-info .col-1 h2 .slide-in-right{
     animation: slide-in-right 2s ease-in-out forwards;
     margin-top: 20px;

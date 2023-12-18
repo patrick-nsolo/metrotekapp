@@ -27,10 +27,10 @@ window.addEventListener('scroll', function(){
 //PARALLAX SCROLLING EFFECT END
 
 
-// LOAD MORE BUTTON START
+// ANIMATION HANDLERS
+function handleIntersection(entries, observer)
 
-
-// LOAD MORE BUTTON END
+// ANIMATION HANDLERS END
 
 //GALLERY SLIDE START
 var img = document.getElementById('img');
