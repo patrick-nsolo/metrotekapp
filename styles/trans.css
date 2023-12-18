@@ -16,45 +16,49 @@
 /*Enter Metrotek Button Slide*/
 /*Left Slide Animation*/
 .slide-in-left{
-    animation: slide-in-left 1.5s ease-in-out forwards;
+    animation: slide-in-left 4s ease-in-out forwards;
 }
 @keyframes slide-in-left{
-    0%{
+    from{
         transform: translateX(-100%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity:1;
-    }
-}
-/*Left Slide Animation*/
-/*Left Slide Animation*/
-.slide-in-right{
-    animation: slide-in-right 1.2s ease-in-out forwards;
-}
-@keyframes slide-in-right{
-    0%{
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity:1;
-    }
-}
-/*Left Slide Animation*/
-.metrotek-info .col-1 h2 .slide-in-right{
-    animation: slide-in-right 2s ease-in-out forwards;
-    margin-top: 20px;
-}
-@keyframes slide-in-right{
-    0%{
-        transform: translateX(100%);
-        opacity: 0;
     }
     to{
-        transform: translateX(0);
-        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+/*Left Slide Animation*/
+/*Right Slide Animation*/
+.slide-in-right{
+    animation: slide-in-right 3.8s ease-in-out forwards;
+}
+@keyframes slide-in-right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+/*Right Slide Animation*/
+.slide-left{
+    animation: slide-left 5s ease-in-out forwards;
+}
+@keyframes slide-left{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.slide-right{
+    animation: slide-right 5s ease-in-out forwards;
+}
+@keyframes slide-right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
     }
 }

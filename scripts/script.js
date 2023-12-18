@@ -26,12 +26,6 @@ window.addEventListener('scroll', function(){
 });
 //PARALLAX SCROLLING EFFECT END
 
-
-// ANIMATION HANDLERS
-function handleIntersection(entries, observer)
-
-// ANIMATION HANDLERS END
-
 //GALLERY SLIDE START
 var img = document.getElementById('img');
 var slides = ['/images/2.webp','/images/3.webp', '/images/4.webp', '/images/5.webp', '/images/6.webp', '/images/7.webp', '/images/8.webp']
@@ -46,5 +40,5 @@ function slider(){
   console.log(img);
   img.innerHTML = "<img src="+slides[Start-1]+">";
 }
-setInterval(slider,5000);
+setInterval(slider,3000);
 //GALLERY SLIDE END
