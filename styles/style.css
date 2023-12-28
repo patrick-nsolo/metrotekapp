@@ -456,6 +456,17 @@ input[type=submit]:hover {
 .caret{
     width:40px;
 }
-
+#branding{
+    display: flex;
+    justify-content: center;
+}
+.branding-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.branding-image img{
+    width:50%;
+}
 
 /*SERVICE/ THE FEEL PAGE STYLING END*/
