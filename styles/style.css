@@ -457,13 +457,14 @@ input[type=submit]:hover {
     width:40px;
 }
 #branding{
-    display: flex;
-    justify-content: center;
+    
 }
 .branding-images{
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+.branding-image{
+    margin: 0 10px;
 }
 .branding-image img{
     width:50%;
