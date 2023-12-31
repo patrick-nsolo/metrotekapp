@@ -456,12 +456,20 @@ input[type=submit]:hover {
 .caret{
     width:40px;
 }
-#branding{
-    
+.branding{
+    text-align: center;
+    margin-top: 20px;
+}
+.branding h2{
+    font-size: 2.5rem;
+    color:var(--metrotekgreen);
 }
 .branding-images{
     display: flex;
     justify-content: center;
+    position: relative;
+    left:8%;
+    top:50px;
 }
 .branding-image{
     margin: 0 10px;
@@ -469,5 +477,19 @@ input[type=submit]:hover {
 .branding-image img{
     width:50%;
 }
-
+.ideatio{
+    text-align: center;
+    margin-top: 20px;
+}
+.ideation h2{
+    font-size: 2.5rem;
+    color:var(--metrotekgreen);
+}
+.ideation-images{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:8%;
+    top:50px;
+}
 /*SERVICE/ THE FEEL PAGE STYLING END*/
