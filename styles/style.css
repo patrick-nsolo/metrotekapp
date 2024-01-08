@@ -495,3 +495,18 @@ input[type=submit]:hover {
     }
 }
 /*SERVICE/ THE FEEL PAGE STYLING END*/
+/*SERVICE/ THE BRANDING PAGE STYLING START*/
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin-top: 50px;
+}
+.brand img{
+    height: 250px;
+}
+
+
+
+/*SERVICE/ THE BRANDING PAGE STYLING END*/
