@@ -462,5 +462,7 @@ input[type=submit]:hover {
     color:var(--metrotekgreen);
     text-align: center;
 }
-
+.branding img{
+    width:50%;
+}
 /*SERVICE/ THE FEEL PAGE STYLING END*/
