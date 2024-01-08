@@ -474,10 +474,16 @@ input[type=submit]:hover {
 }
 .services h4{
     text-align: center;
+    color:var(--metrotekgreen);
 }
 .branding, .ideation, .printing, .merchandizing{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding:40px;
+    transition: transform .1s;
+}
+.branding:hover, .ideation:hover, .printing:hover, .merchandizing:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .branding img, .ideation img, .printing img, .merchandizing img{
     height:150px;
