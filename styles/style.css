@@ -456,20 +456,11 @@ input[type=submit]:hover {
 .caret{
     width:40px;
 }
-
-.ideation{
-    text-align: center;
-    margin-top: 20px;
-}
-.ideation h2{
-    font-size: 2.5rem;
+.service-title h3{
+    font-size: 2rem;
+    font-weight: 900;
     color:var(--metrotekgreen);
+    text-align: center;
 }
-.ideation-images{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left:8%;
-    top:120px;
-}
+
 /*SERVICE/ THE FEEL PAGE STYLING END*/
