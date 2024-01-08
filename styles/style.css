@@ -470,6 +470,14 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
     gap:100px;
+    margin-top: 50px;
+}
+.services h4{
+    text-align: center;
+}
+.branding, .ideation, .printing, .merchandizing{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:40px;
 }
 .branding img, .ideation img, .printing img, .merchandizing img{
     height:150px;
