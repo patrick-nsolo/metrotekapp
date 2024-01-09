@@ -117,6 +117,17 @@
     }
     .menu.active{
         left:0;
+        position: fixed;
+        top:60px;
+    }
+    .menu.active .menu-links.drop {
+        position: static;
+    }
+    .menu-links.drop:hover .dropdown {
+        display: none;
+    }
+    .menu.active .menu-links.drop:hover .dropdown {
+        display: block;
     }
 }
 /*NAVIGATION STYLING END [MOBILE RESPONSIVE]*/
