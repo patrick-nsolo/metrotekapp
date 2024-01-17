@@ -17,15 +17,7 @@ n.addEventListener("click", () => {
 }));
 //NAVIGATION SCRIPT END
 
-document.addEventListener('DOMContentLoaded', function(){
-  var feelNavItem = document.getElementById('feel');
-  var menu = document.querySelector('.menu');
-
-  feelNavItem.addEventListener('click',function(event){
-    event.preventDefault();
-    menu.classList.toggle('active');
-  });
-});
+const mobileDropdownFeatures = document.querySelector(".features")
 
 //PARALLAX SCROLLING EFFECT START
 const parallax = document.getElementsByClassName('hero');

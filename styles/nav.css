@@ -85,6 +85,9 @@
     .navbar{
         gap:180px;
     }
+    .navbar ul li{
+        width:100%;
+    }
     .container{
         width:100%;
     }
